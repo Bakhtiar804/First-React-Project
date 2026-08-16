@@ -1,12 +1,11 @@
 import React from 'react'
 import './Service.css'
-import { Code, Palette, Cpu, Gauge, Shield, ArrowRight, Sparkles } from 'lucide-react';
+import { Code, Palette, Cpu, Gauge } from 'lucide-react';
 
 
 import NavBar from '../../components/navBar/NavBar'
 import Heading from '../../components/heading/Heading'
 import ParaGraph from '../../components/paraGraph/ParaGraph'
-import ContainerCards from '../../components/containerCards/ContainerCards'
 import Button from '../../components/button/Button';
 import Container from '../../components/container/Container';
 import ToastHeading from '../../components/toastHeading/ToastHeading';

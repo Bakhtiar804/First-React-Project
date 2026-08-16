@@ -1,7 +1,7 @@
 import React from 'react'
 import './Container.css'
-import { Row, Col, Card, Tag, Button } from 'antd';
-import { Code, Palette, Cpu, Gauge, Shield, ArrowRight, Sparkles } from 'lucide-react';
+import { Row, Col, Card, Tag,  } from 'antd';
+
 
 
 const Container = ({ services }) => {

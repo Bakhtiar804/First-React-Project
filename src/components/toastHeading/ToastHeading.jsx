@@ -1,7 +1,7 @@
 import React from 'react'
 import './ToastHeading.css'
 
-import { Rocket, Compass, ShieldCheck, Zap, ArrowRight } from 'lucide-react';
+import { Rocket } from 'lucide-react';
 
 
 const ToastHeading = ({ text , num }) => {

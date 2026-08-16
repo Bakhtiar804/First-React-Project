@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import { Rocket, Compass,Globe , ShieldCheck, Zap, ArrowRight } from 'lucide-react';
+import {  Compass, ShieldCheck, Zap } from 'lucide-react';
 
 
 import NavBar from '../../components/navBar/NavBar'
@@ -9,7 +9,7 @@ import ParaGraph from '../../components/paraGraph/ParaGraph'
 import CommonCard from '../../components/commonCard/CommonCard'
 import ContainerCards from '../../components/containerCards/ContainerCards'
 import Button from '../../components/button/Button';
-import ToastHeading from '../../components/toastHeading/ToastHeading';
+import ToastHeading from  '../../components/toastHeading/ToastHeading';
 
 
 const Home = () => {

@@ -1,16 +1,14 @@
 import React from 'react'
 import './Home.css'
-import { Rocket, Shield, Cpu, Globe, ArrowRight, Sparkles, Layers } from 'lucide-react';
-import { Row, Col, Card } from 'antd';
+import {  Shield, Cpu, Globe} from 'lucide-react';
+
 
 import NavBar from '../../components/navBar/NavBar'
-import HomePage from '../../components/aboutPage/AboutPage'
 import ToastHeading from '../../components/toastHeading/ToastHeading'
 import Heading from '../../components/heading/Heading'
 import ParaGraph from '../../components/paraGraph/ParaGraph'
 import Button from '../../components/button/Button'
 import ContainerCards from '../../components/containerCards/ContainerCards'
-import CommonCard from '../../components/commonCard/CommonCard';
 import TitleCards from '../../components/titleCards/TitleCards';
 
 const Home = () => {
