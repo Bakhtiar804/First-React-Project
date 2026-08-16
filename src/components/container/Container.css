@@ -1,0 +1,113 @@
+/* Grid Wrapper Container */
+.services-grid {
+  margin-bottom: 5rem;
+}
+
+/* Base Card Styling (Glassmorphism Effect) */
+.service-card {
+  background: rgba(15, 23, 42, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(12px);
+  border-radius: 1.25rem !important;
+  height: 100%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Hover Animation & Glow */
+.service-card:hover {
+  border-color: rgba(168, 85, 247, 0.4) !important;
+  box-shadow: 0 12px 30px rgba(168, 85, 247, 0.15);
+  transform: translateY(-6px);
+}
+
+/* Ant Design Card Body Padding Fix */
+.service-card .ant-card-body {
+  padding: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Header Layout (Icon + Tag) */
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+/* Icon Box Styling */
+.service-icon-box {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(168, 85, 247, 0.15);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c084fc;
+}
+
+.service-icon-box svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Custom Tag Styling */
+.space-tag {
+  background: rgba(168, 85, 247, 0.2) !important;
+  color: #e9d5ff !important;
+  border: 1px solid rgba(168, 85, 247, 0.3) !important;
+  border-radius: 9999px !important;
+  padding: 0.2rem 0.75rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em;
+  margin-right: 0 !important;
+}
+
+/* Typography */
+.service-card-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.75rem 0;
+}
+
+.service-card-desc {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0 0 1.5rem 0;
+  flex-grow: 1; /* Card heights balance rakhne ke liye */
+}
+
+/* Features List */
+.service-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.25rem;
+}
+
+.service-features-list li {
+  font-size: 0.875rem;
+  color: #cbd5e1;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.service-features-list li:last-child {
+  margin-bottom: 0;
+}
+
+.bullet-star {
+  color: #c084fc;
+  font-size: 0.85rem;
+  text-shadow: 0 0 8px rgba(192, 132, 252, 0.6);
+}

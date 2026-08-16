@@ -1,0 +1,70 @@
+.space-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #c084fc;
+  background-color: rgba(88, 28, 135, 0.4);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  margin-top: 80px;
+}
+
+.main-heading{
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-para{
+    
+    width: 70%;
+    color: rgb(198, 227, 252);
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.sub-heading{
+    font-size: 19px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.para{
+    /* font-size: 29px !important; */
+    font-weight: 500;
+    margin-top: 10px;
+}
+.contact-redirect-btn button{
+background-color: #9839f0;
+border: 1px solid #8b2fe2;
+border-radius: 11px;
+color: #F6EDFE;
+font-size: 18px;
+font-weight: 600;
+padding: 8px 20px;
+cursor: pointer;
+}
+
+
+.cta-banner {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 1.25rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  margin-bottom: 40px;
+}

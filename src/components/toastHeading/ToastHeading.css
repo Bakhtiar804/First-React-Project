@@ -1,0 +1,15 @@
+.space-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #c084fc;
+  background-color: rgba(88, 28, 135, 0.4);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  margin-top: 45px !important;
+}

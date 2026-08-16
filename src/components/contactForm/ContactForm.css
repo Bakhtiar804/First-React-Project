@@ -1,0 +1,120 @@
+.contact-form-wrapper {
+  max-width: 34rem;
+  margin: 3rem auto; /* Top aur bottom margin dein taake page par jagah bane */
+  padding: 2.5rem;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  
+  /* REMOVE/DONT USE THESE: */
+  /* max-height: 90vh; */ 
+  /* overflow-y: auto; */
+
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-header .rocket-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #c084fc;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header h2 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.contact-header p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Ant Design Form Custom Dark Theme */
+.space-form .ant-form-item-label > label {
+  color: #cbd5e1 !important;
+  font-weight: 500;
+}
+
+.space-form .ant-input,
+.space-form .ant-input-textarea textarea,
+.space-form .ant-select-selector  {
+  background-color: rgba(2, 6, 23, 0.6) !important;
+  border-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-radius: 0.5rem !important;
+}
+
+.space-form .ant-input::placeholder,
+.space-form .ant-input-textarea textarea::placeholder {
+  color: #64748b;
+}
+
+.space-form .ant-input:focus,
+.space-form .ant-input-textarea textarea:focus,
+.space-form .ant-select-focused .ant-select-selector {
+  border-color: #a855f7 !important;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.3) !important;
+
+}
+
+.ant-select{
+    background-color:rgba(2, 6, 23, 0.6) ;
+}
+
+.ant-select-outlined{
+    border-color:#1e293b !important;
+}
+
+.ant-select-placeholder{
+    /* background-color:rgba(15, 23, 42, 0.75) ; */
+    color:#64748b !important;
+    
+}
+.ant-select-content{
+    color:#f8fafc !important;
+}
+#topic{
+    color: white !important;
+}
+/* Buttons Styling */
+.space-btn-primary {
+  background-color: #9333ea !important;
+  border-color: #9333ea !important;
+  color: #ffffff !important;
+  border-radius: 0.5rem !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.space-btn-primary:hover {
+  background-color: #a855f7 !important;
+  border-color: #a855f7 !important;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+}
+
+.space-btn-reset {
+  background-color: transparent !important;
+  border-color: #334155 !important;
+  color: #94a3b8 !important;
+  border-radius: 0.5rem !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.space-btn-reset:hover {
+  color: #ffffff !important;
+  border-color: #64748b !important;
+}

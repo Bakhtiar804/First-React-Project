@@ -1,0 +1,47 @@
+/* Navigation Container */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0.8rem 2rem;
+  background: rgba(15, 23, 42, 0.7); /* Translucent Space Theme */
+  backdrop-filter: blur(12px); /* Glassmorphism effect */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px; /* Capsule shape header */
+  max-width: fit-content;
+  margin: 0px auto;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Nav Links Base Style */
+.nav-links {
+    text-decoration: none;
+  color: #94a3b8;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Hover Effect with Glow */
+.nav-links:hover {
+  color: #ffffff;
+  background: rgba(168, 85, 247, 0.15); /* Purple tint to match overall theme */
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+  transform: translateY(-1px);
+}
+
+a{
+    text-decoration: none;
+    color: #94a3b8;
+}
+/* Active State Effect */
+.nav-links:active {
+  transform: translateY(0);
+  
+}

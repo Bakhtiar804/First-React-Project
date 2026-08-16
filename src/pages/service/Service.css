@@ -1,0 +1,26 @@
+.main-h1{
+     font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.main-para{
+    width: 61% !important;
+    margin: 0 auto;
+    font-weight: 350 !important;
+}
+
+.main-container{
+margin-top: 39px !important;
+}
+
+.cta-banner {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 1.25rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  margin-bottom: 40px;
+}
