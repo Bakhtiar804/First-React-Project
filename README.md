@@ -32,7 +32,7 @@ A modern, high-performance web application built with **React**, **Ant Design**,
    ```bash
    git clone [https://github.com/Bakhtiar804/First-React-Project.git]
 
-   src/
+src/
 ├── components/
 │   ├── Navbar.jsx / Navbar.css
 │   └── Footer.jsx / Footer.css
